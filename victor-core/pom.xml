@@ -15,11 +15,21 @@
     <version>1.0.0-SNAPSHOT</version>
 
     <dependencies>
+
+        <!-- 对象拷贝工具 -->
         <dependency>
             <groupId>io.github.dripWaterArun</groupId>
             <artifactId>victor-system-copy</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
+
+        <!--字符串工具-->
+        <dependency>
+            <groupId>io.github.dripWaterArun</groupId>
+            <artifactId>victor-system-string</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
 </project>

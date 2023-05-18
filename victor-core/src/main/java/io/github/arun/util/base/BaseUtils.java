@@ -1,5 +1,7 @@
 package io.github.arun.util.base;
 
+import io.github.arun.model.TextContent;
+import io.github.arun.util.DiffTextUtil;
 import io.github.arun.util.copy.CopyUtils;
 
 /**
@@ -32,4 +34,16 @@ public class BaseUtils {
     public static<T> T copyProperties(Object source, T targets) {
         return CopyUtils.copyProperties(source, targets);
     }
+
+    /**
+     * 文本比较方法
+     * @param text 文本实体类
+     * @return 文本不同地方的集合
+     * @author daixu
+     * @date 2023-03-29 09:08
+     */
+    public static Object textComparison(TextContent text) {
+        return DiffTextUtil.textComparisonDiffText(text.getText1(),text.getText2());
+    }
+
 }

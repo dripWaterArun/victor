@@ -19,7 +19,7 @@
     <modules>
         <module>victor-core</module>
         <module>victor-common</module>
-        <module>victor-test</module>
+        <module>victor-Test</module>
         <module>victor-system</module>
     </modules>
 
