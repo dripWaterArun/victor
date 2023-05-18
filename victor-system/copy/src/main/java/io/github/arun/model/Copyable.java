@@ -1,6 +1,5 @@
 package io.github.arun.model;
 
-import com.core.util.clone.CopyPros;
 import io.github.arun.util.copy.CopyUtils;
 
 /**

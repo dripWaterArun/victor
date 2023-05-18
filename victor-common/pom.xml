@@ -11,6 +11,7 @@
     </parent>
 
     <artifactId>victor-common</artifactId>
+    <packaging>jar</packaging>
 
     <dependencies>
 
