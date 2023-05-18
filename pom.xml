@@ -16,6 +16,20 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <!--项目地址-->
+    <url>https://github.com/dripWaterArun/victor</url>
+
+    <!-- 仓库信息，根据实际情况修改 -->
+    <scm>
+        <!--项目 git 仓库地址-->
+        <url>https://github.com/dripWaterArun/victor</url>
+        <!-- connection 与 developerConnection 写一个就可以-->
+        <!--项目 git 克隆地址(只读) RELEASE 版本-->
+        <connection>https://github.com/dripWaterArun/victor.git</connection>
+        <!--项目 git 克隆地址（读写）SNAPSHOT 版本-->
+        <developerConnection>https://github.com/dripWaterArun/victor.git</developerConnection>
+    </scm>
+
     <modules>
         <module>victor-core</module>
         <module>victor-common</module>
